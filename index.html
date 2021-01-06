@@ -1,4 +1,4 @@
-{% load static %}
+<!-- {% load static %} -->
 
 <!DOCTYPE html>
 
@@ -6,9 +6,18 @@
     <head>
         <meta charset = "UTF-8" />
         <title>Home</title>
-        <link rel = "stylesheet" href = "{% static 'css/style.css' %}">
+<!--    <link rel = "stylesheet" href = "{% static 'css/style.css' %}"> -->
         <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <style>
+            
+            .page-text{
+                position: absolute;
+                font-family: 'Lato', sans-serif;
+                letter-spacing: 0.13em;
+                z-index: 20;
+                color: white;
+            }
+            
             .first-img {
                 position: relative;
                 width: 100%;
@@ -103,7 +112,7 @@
                 overflow: hidden;
                 background-color: #1D1D1D;
                 font-family: 'Lato';
-                width: 500px;
+                width: 100%;
             }
 
             .navbar a {
