@@ -8,6 +8,11 @@
         <!--<link rel = "stylesheet" href = "{% static 'css/style.css' %}">-->
         <link rel="stylesheet" type="text/css" href="style.css"> 
         <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <script>
+            var width = window.innerWidth
+            || document.documentElement.clientWidth
+            || document.body.clientWidth;
+        </script>
         <style>
             .header-rady-img {
                 position: relative;
@@ -193,7 +198,7 @@
                 text-align: center;
                 letter-spacing: 0.155em;
                 text-decoration: none;
-                padding-right: 290px;
+                padding-right: calc(width-500px);
             }
 
             .CCCtitle:hover{
