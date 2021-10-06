@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Home</title>
+    <title>About Us</title>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <script src="https://kit.fontawesome.com/731b3fa837.js" crossorigin="anonymous"></script>
     <style>
@@ -25,7 +25,6 @@
             height: 110px;
             width: 100%;
             position: fixed;
-            z-index: 20;
         }
 
         header * {
@@ -154,190 +153,128 @@
 
         .title-container {
             width: 100%;
-            min-height: 300px;
-            background: url("../static/images/sdlandscape.png");
+            height: 250px;
+            background: url("../static/images/radys.jpg");
             background-repeat: no-repeat;
             background-size: cover;
+            display: flex;
             padding-top: 110px;
+            align-items: center;
+            justify-content: center;
         }
 
-        .title-content {
+        .title {
             font-family: 'Lato', sans-serif;
             font-weight: bold;
             font-size: 50px;
             letter-spacing: 0.13em;
             color: white;
-            margin: 0px 70px 40px 70px;
-            padding: 1.3em;
+            text-align: center;
+            white-space: nowrap;
+            margin: 0px 10px 0px 70px;
         }
 
-        .subtext {
-            font-size: 25px;
-            font-weight: lighter;
-            margin-top: 50px;
+        .lines {
+            width: 100%;
+            margin-right: 50px;
         }
 
-        .subtitle {
-            display: flex;
-            margin: 10vh 0px 3vh 10vw;
+        .rectangle {
+            height: 4px;
+            width: 100%;
+            min-width: none;
+            background: white;
         }
+
+        .rectangle:nth-child(2) {
+            background: #FFE27C;
+            margin-top: 10px;
+        }
+
+        /*Content*/
 
         .mission {
             font-size: 2.8em;
             font-weight: normal;
             color: white;
             font-family: 'Lato', sans-serif;
+            margin: 10vh 0px 3vh 10vw;
             letter-spacing: 0.13em;
-            margin-right: 20px;
         }
 
-        .button {
-            background-color: #1D1D1D;
-            border: 2px solid #FFE27B;
-            color: #FFE27B;
-            text-align: center;
-            text-decoration: none;
-            font-family: 'Lato', sans-serif;
-            font-size: 18px;
-            cursor: pointer;
-            transition-duration: 0.4s;
-            padding: 10px 24px;
-            margin: auto 0;
-        }
-
-        .button:hover {
-            background-color: #FFE27B;
-            color: black;
-        }
-
-        .button:active {
-            background-color: #FFE27B;
-            transform: translateY(4px);
-        }
-
-        .box-search {
-            margin: 40px auto;
-            width: 65%;
-        }
-
-        .geisel {
-            display: block;
-            max-width: 100%;
-            filter: brightness(70%);
-        }
-
-        .thumbnail {
-            position: relative;
-            display: inline-block;
-        }
-
-        .caption {
-            width: 75%;
-            padding: 40px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            color: white;
-            font-size: 30px;
-            font-family: 'Lato', sans-serif;
-            letter-spacing: 0.135em;
-            line-height: 156%;
-            border: 3px solid #FFE27B;
-        }
-
-        @media screen and (max-width: 1200px) {
-            .caption {
-                font-size: 20px;
-            }
-
-            .title-content {
-                font-size: 40px;
-            }
-
-            .subtext {
-                font-size: 15px;
-            }
-        }
-
-        @media screen and (max-width: 890px) {
-            .caption {
-                font-size: 15px;
-            }
-
-            .title-content {
-                font-size: 30px;
-            }
-
-            .subtext {
-                font-size: 15px;
-            }
-        }
-
-        @media screen and (max-width: 620px) {
-            .caption {
-                font-size: 10px;
-            }
-
-            .title-content {
-                text-align: center;
-                margin-left: 0px;
-                margin-right: 0px;
-            }
-
-            .subtext {
-                text-align: center;
-                margin-left: 0px;
-                margin-right: 0px;
-            }
-
-            .subtitle {
-                flex-wrap: wrap;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                margin-left: 0px;
-                margin-right: 0px;
-            }
-
-            .mission {
-                text-align: center;
-                margin-bottom: 15px;
-                margin-right: 0px;
-            }
-
-            .service-text {
-                text-align: center;
-                margin-left: 0px;
-            }
-        }
-
-        .service-text {
-            margin: 60px 10vw 60px 10vw;
-            color: white;
-            font-family: 'Lato', sans-serif;
-            letter-spacing: 0.135em;
-            font-size: 19px;
-        }
-
-        .service-container {
+        .mission-content {
             display: flex;
-            margin: 0 5vw;
-            justify-content: bottom;
-            flex-wrap: wrap;
-            align-items: flex-end;
+            color: white;
+            align-items: center;
+            margin: 10px 10vw;
         }
 
-        .service {
-            margin-top: 20px;
-            height: 100%;
-            color: white;
+        .handshake {
+            margin-right: 40px;
+        }
+
+        .handshake>img {
+            height: 400px;
+            width: 500px;
+        }
+
+        .handshake-text {
+            font-size: 18px;
             font-family: 'Lato', sans-serif;
-            letter-spacing: 0.135em;
-            font-size: 30px;
-            flex: 1;
-            text-align: center;
+            letter-spacing: 0.13em;
+        }
+
+        .apart {
+            margin: 0px 10vw;
+            letter-spacing: 0.13em;
+            font-family: 'Lato', sans-serif;
+            font-weight: lighter;
+            color: white;
+        }
+
+        .apart.titles {
+            font-size: 2em;
+            margin-top: 100px;
+        }
+
+        .apart.content {
+            margin-top: 20px;
+            font-size: 18px;
+            margin-bottom: 60px;
+        }
+
+        @media screen and (max-width: 980px) {
+            .mission {
+                margin-left: 0px;
+                margin-right: 0px;
+                text-align: center;
+            }
+
+            .mission-content {
+                flex-wrap: wrap;
+            }
+
+            .handshake {
+                margin: auto;
+                margin-bottom: 20px;
+            }
+
+            .handshake>img {
+                height: 350px;
+                width: 400px;
+            }
+
+            .handshake-text {
+                text-align: center;
+            }
+
+            .apart.titles {
+                text-align: center;
+            }
+
+            .apart.content {
+                text-align: center;
+            }
         }
 
         /*Footer*/
@@ -388,6 +325,7 @@
 </head>
 
 <body>
+    <!-- Page Navigation Bar -->
     <header>
         <a href="./home.html">
             <div class="logo">
@@ -428,62 +366,41 @@
 
     <!-- Header Picture -->
     <div class="title-container">
-        <div class="title-content">
-            <p>
-                A <span style="color: #FFE27B;">community</span> of <span style="color: #FFE27B;">consultants</span>
-                that will be the <span style="color: #FFE27B;">cornerstone</span> of tomorrow's business landscape.
-            </p>
-            <p class="subtext">We are a student-run business consulting organization based at UC San Diego that provides
-                pro-bono
-                consulting services to local businesses.</p>
+        <div class="title">ABOUT US</div>
+
+        <div class="lines">
+            <div class="rectangle"></div>
+            <div class="rectangle"></div>
         </div>
     </div>
 
-    <div class="subtitle">
-        <h2 class="mission">OUR MISSION</h2>
-        <a href="about.html" class="button">Learn More</a>
-    </div>
+    <!-- Our Mission -->
+    <h2 class="mission">OUR MISSION</h2>
 
-    <div class="box-search">
-        <div class="thumbnail">
-            <img class="geisel" src="../static/images/geisel.png" alt="">
-            <div class="caption">
-                <p>We strive to empower local businesses through community service, professional development, and future
-                    business leadership.</p>
-            </div>
+    <!-- Description -->
+    <div class="mission-content">
+        <div class="handshake">
+            <img src="../static/images/handshake.jpg" />
         </div>
-    </div>
-
-    <div class="subtitle">
-        <h2 class="mission">OUR SERVICES</h2>
-        <a href="services.html" class="button">Learn More</a>
-    </div>
-
-    <div class="service-text">Cornerstone Community Consultants provides tangible solutions tailored to each individual
-        company. We want to
-        work with you and your needs. Our organization offers the following services:</div>
-
-    <div class="service-container">
-        <div class="service">
-            <p>Marketing</p>
-            <img src="../static/images/mobile-marketing-animate.svg"
-                style="margin-top: 40px; width: 240px; height: 210px;" />
-        </div>
-        <div class="service">
-            <p>Financial Analysis</p>
-            <img src="../static/images/financial-data-animate.svg"
-                style="margin-top: 40px; width: 240px; height: 210px;" />
-        </div>
-        <div class="service">
-            <p>Operations Management</p>
-            <img src="../static/images/statistics-animate.svg" style="margin-top: 40px; width: 240px; height: 210px;" />
-        </div>
-        <div class="service">
-            <p>Software Development</p>
-            <img src="../static/images/development-animate.svg"
-                style="margin-top: 40px; width: 240px; height: 210px;" />
+        <div class="handshake-text">
+            We have a vision which is to foster professionalism, excellence, and integrity among students by
+            delivering economic value to the community through pro-bono consulting services.
+            <br><br>
+            Founded in 2014, Cornerstone Community Consultants is a student group that delivers top quality
+            research, analysis, and coordination to local businesses. Our student consultants are among the
+            brightest talents who are committed to contributing back to the community through our mutual passion,
+            business. Clients can expect only the best service from our consulting teams to address their various
+            needs. Please see our services page to learn more about what we offer, as well as our portfolio to see
+            descriptions of previous projects.
         </div>
     </div>
+    <h2 class="apart titles">WHAT SETS US APART</h2>
+
+    <p class="apart content">
+        All clients receive free consulting from a team of dedicated students, as we never charge for our services. This
+        way, we foster a selfless environment, and can directly give back to our community. CCC strives to serve as the
+        bridge between community service, professional development, and future business leadership.
+    </p>
 
     <!-- Footer -->
     <footer>
@@ -522,6 +439,7 @@
             submenuElement[1].classList.toggle('showing');
         })
     </script>
+
 </body>
 
 
