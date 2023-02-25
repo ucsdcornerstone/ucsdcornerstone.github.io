@@ -1,11 +1,20 @@
-import React from 'react'
+import React from "react";
 
-function Home() {
-    return (
-        <div>
-            home page
-        </div>
-    )
-}
+const styles = {
+  divStyle: {
+    border: "5px solid pink",
+  },
+  pStyle: {
+    fontSize: "15px",
 
-export default Home
+  },
+};
+
+
+const Home = () => (
+  <div style={styles.divStyle}>
+    <p style={styles.pStyle}>Get started with inline style</p>
+  </div>
+);
+
+export default Home;

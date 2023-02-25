@@ -1,0 +1,137 @@
+/* * {
+  margin: 0;
+}
+
+body {
+  background: #1D1D1D;
+  padding: 0px;
+  margin: 0px;
+} */
+
+/* header {
+  background: #1d1d1d;
+  height: 110px;
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+}
+
+header * {
+  color: white;
+  font-family: "Lato", sans-serif;
+} */
+
+/* header .logo {
+  float: left;
+  display: flex;
+  color: white;
+  padding: 20px 0px 20px 5vw;
+}
+
+.logo > img {
+  margin-right: 5px;
+}
+
+.logo-title {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+/* header ul {
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  margin-right: 5vw;
+  margin-top: 25px;
+} */
+
+/* header ul li {
+  float: left;
+  position: relative;
+} */
+
+/* header ul li ul {
+  position: absolute;
+  top: 38px;
+  width: 150px;
+  display: none;
+} */
+
+/* header ul li:hover ul {
+  display: block;
+} */
+
+/* header ul li ul li {
+  width: 100%;
+} */
+
+/* header ul li ul li a {
+  background: #1d1d1d;
+  padding: 10px;
+} */
+/* 
+header ul li a {
+  display: block;
+  padding: 21px;
+  font-size: 1.1em;
+  text-decoration: none;
+} */
+
+/* header ul li a:hover {
+  background: #444444;
+  transition: 0.5s;
+} */
+
+/* header .menu-toggle {
+  display: none;
+} */
+
+/* @media screen and (max-width: 790px) {
+  header {
+    position: fixed;
+  } */
+/* 
+  header ul {
+    width: 100%;
+    background: #1d1d1d;
+    margin-top: 0px;
+    margin-right: 0px;
+    max-height: 0px;
+    overflow: hidden;
+  } */
+
+  /* .showing {
+    max-height: 100em;
+  } */
+
+  /* header ul li {
+    width: 100%;
+  } */
+
+  /* header ul li ul {
+    position: static;
+    display: block;
+    width: 100%;
+  } */
+
+  /* header ul li ul li a {
+    padding: 10px 10px 10px 50px;
+  } */
+
+  /* header .menu-toggle {
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    font-size: 1.9em;
+    color: white;
+  } */
+
+  /* header .logo {
+    margin-left: 0.1em;
+  } */
+/* } */
