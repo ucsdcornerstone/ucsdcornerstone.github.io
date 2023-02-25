@@ -116,6 +116,10 @@ export const Service = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 40px;
+  @media screen and (max-width: 768px) {
+    gap: 24px;
+
+  }
 `;
 
 export const ServiceImg = styled.img`
