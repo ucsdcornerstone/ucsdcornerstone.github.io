@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../../assets/navbar.css";
 import logo from "../../assets/navbar/logo.png";
 import burger from "../../assets/navbar/burger.svg";
 import dropdown from "../../assets/navbar/dropdown.svg";
@@ -10,7 +9,6 @@ import {
   LogoImg,
   LogoTitle,
   Word,
-  Letter,
   Burger,
   A,
   Triangle,
@@ -20,11 +18,12 @@ import {
   Item,
   SubItem,
 } from "./style";
+import {Yellow} from "../../assets/universal";
 import { useNavigate } from "react-router-dom";
 
 function Navbar() {
   const [showing, setShowing] = useState(false);
-  const [workWithUs, setWorkWithUs] = useState(false);
+  // const [workWithUs, setWorkWithUs] = useState(false);
 
   let navigate = useNavigate();
 
@@ -34,13 +33,13 @@ function Navbar() {
         <LogoImg src={logo} />
         <LogoTitle>
           <Word>
-            <Letter>C</Letter>ornerstone
+            <Yellow>C</Yellow>ornerstone
           </Word>
           <Word>
-            <Letter>C</Letter>ommunity
+            <Yellow>C</Yellow>ommunity
           </Word>
           <Word>
-            <Letter>C</Letter>onsultants
+            <Yellow>C</Yellow>onsultants
           </Word>
         </LogoTitle>
       </Logo>

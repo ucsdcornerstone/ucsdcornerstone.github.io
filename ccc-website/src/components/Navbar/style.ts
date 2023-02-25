@@ -36,10 +36,6 @@ export const LogoTitle = styled.div`
 
 export const Word = styled.div``;
 
-export const Letter = styled.span`
-  color: #ffe27c;
-`;
-
 export const Burger = styled.img`
   display: none;
 
