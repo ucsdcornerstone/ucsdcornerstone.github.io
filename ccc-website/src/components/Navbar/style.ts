@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { Link } from "react-router-dom";
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Wrapper = styled.header`
   background: #1d1d1d;
@@ -8,7 +8,7 @@ export const Wrapper = styled.header`
   position: fixed;
   z-index: 20;
   color: white;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: white;
 `;
 
@@ -27,7 +27,7 @@ export const LogoImg = styled.img`
 `;
 
 export const LogoTitle = styled.div`
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -86,7 +86,7 @@ export const Nav = styled.ul<{ showing?: boolean }>`
     margin-right: 0px;
     max-height: 0px;
     overflow: hidden;
-    ${(props) => props.showing && "max-height: 100em;"}
+    ${(props) => props.showing && 'max-height: 100em;'}
   }
 `;
 

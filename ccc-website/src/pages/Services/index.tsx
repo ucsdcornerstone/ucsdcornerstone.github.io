@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 function Services() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return <div></div>;
 }
 
-export default Services
+export default Services;

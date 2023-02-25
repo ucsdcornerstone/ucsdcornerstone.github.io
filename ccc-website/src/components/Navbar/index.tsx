@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import logo from "../../assets/navbar/logo.png";
-import burger from "../../assets/navbar/burger.svg";
-import dropdown from "../../assets/navbar/dropdown.svg";
+import React, { useState } from 'react';
+import logo from '../../assets/navbar/logo.png';
+import burger from '../../assets/navbar/burger.svg';
+import dropdown from '../../assets/navbar/dropdown.svg';
 
 import {
   Wrapper,
@@ -17,9 +17,9 @@ import {
   SubMenu,
   Item,
   SubItem,
-} from "./style";
-import {Yellow} from "../../assets/universal";
-import { useNavigate } from "react-router-dom";
+} from './style';
+import { Yellow } from '../../assets/universal';
+import { useNavigate } from 'react-router-dom';
 
 function Navbar() {
   const [showing, setShowing] = useState(false);
@@ -29,7 +29,7 @@ function Navbar() {
 
   return (
     <Wrapper>
-      <Logo className="logo" onClick={() => navigate("/")}>
+      <Logo className="logo" onClick={() => navigate('/')}>
         <LogoImg src={logo} />
         <LogoTitle>
           <Word>
@@ -43,7 +43,7 @@ function Navbar() {
           </Word>
         </LogoTitle>
       </Logo>
-      <Burger src={burger} onClick={() => setShowing(!showing)}/>
+      <Burger src={burger} onClick={() => setShowing(!showing)} />
       <Nav showing={showing}>
         <Item>
           <A to="/about">About Us</A>

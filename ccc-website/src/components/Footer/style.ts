@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const FooterWrapper = styled.footer`
   margin-top: 200px;
@@ -25,7 +25,7 @@ export const LogoImg = styled.img`
 
 export const Title = styled.h5`
   margin-left: 1em;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 1.1em;
   letter-spacing: 0.135em;
 

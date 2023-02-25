@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   TitleContainer,
   InfoContainer,
@@ -12,10 +12,10 @@ import {
   ServiceWrapper,
   Service,
   ServiceImg,
-} from "./style";
-import { Text, Yellow } from "../../assets/universal";
-import geisel from "../../assets/home/geisel.png";
-import { services } from "../../assets/home/services";
+} from './style';
+import { Text, Yellow } from '../../assets/universal';
+import geisel from '../../assets/home/geisel.png';
+import { services } from '../../assets/home/services';
 
 function Home() {
   return (
@@ -86,7 +86,14 @@ function Home() {
           <ServiceWrapper>
             {services.map((item) => (
               <Service>
-                <Text fontSize="28px" tabletFont="20px" mobileFont="18px" center>{item.name}</Text>
+                <Text
+                  fontSize="28px"
+                  tabletFont="20px"
+                  mobileFont="18px"
+                  center
+                >
+                  {item.name}
+                </Text>
                 <ServiceImg src={item.image} />
               </Service>
             ))}

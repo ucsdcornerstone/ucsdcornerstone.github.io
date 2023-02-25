@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Text = styled.div<{
   fontSize?: string;
@@ -11,23 +11,23 @@ export const Text = styled.div<{
   lineHeight?: string;
   center?: boolean;
 }>`
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   margin: 0;
   color: white;
-  font-size: ${(props) => props.fontSize || "16px"};
-  padding: ${(props) => props.padding || "0"};
+  font-size: ${(props) => props.fontSize || '16px'};
+  padding: ${(props) => props.padding || '0'};
   ${(props) => props.letterSpacing && `letter-spacing: ${props.letterSpacing};`}
-  ${(props) => props.light && "font-weight: lighter;"}
-  ${(props) => props.bold && "font-weight: bold;"}
+  ${(props) => props.light && 'font-weight: lighter;'}
+  ${(props) => props.bold && 'font-weight: bold;'}
   ${(props) => props.lineHeight && `line-height: ${props.lineHeight};`}
 
 
   @media screen and (max-width: 1200px) {
-    font-size: ${(props) => props.tabletFont || "20px"};
+    font-size: ${(props) => props.tabletFont || '20px'};
   }
 
   @media screen and (max-width: 480px) {
-    font-size: ${(props) => props.mobileFont || "15px"};
+    font-size: ${(props) => props.mobileFont || '15px'};
   }
 `;
 

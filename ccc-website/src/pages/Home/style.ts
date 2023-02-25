@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import landscape from "../../assets/home/sdlandscape.png";
-import { Link } from "react-router-dom";
+import styled from 'styled-components';
+import landscape from '../../assets/home/sdlandscape.png';
+import { Link } from 'react-router-dom';
 
 export const TitleContainer = styled.div`
   background: url(${landscape}) no-repeat bottom;
@@ -89,7 +89,7 @@ export const LibraryText = styled.div`
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   border: 3px solid #ffe27b;
 
   @media screen and (max-width: 1200px) {
@@ -109,7 +109,6 @@ export const ServiceWrapper = styled.div`
   gap: 48px;
   align-items: center;
   justify-content: center;
-
 `;
 
 export const Service = styled.div`

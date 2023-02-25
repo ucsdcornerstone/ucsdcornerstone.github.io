@@ -1,7 +1,7 @@
-import React from "react";
-import { FooterWrapper, Logo, LogoImg, Title, Links, Icon } from "./style";
-import { Socials } from "../../assets/footer";
-import blackLogo from "../../assets/footer/blacklogo.png";
+import React from 'react';
+import { FooterWrapper, Logo, LogoImg, Title, Links, Icon } from './style';
+import { Socials } from '../../assets/footer';
+import blackLogo from '../../assets/footer/blacklogo.png';
 
 function Footer() {
   return (
@@ -15,7 +15,7 @@ function Footer() {
           return (
             <Icon
               src={item.image}
-              onClick={() => window.open(item.link, "_blank")}
+              onClick={() => window.open(item.link, '_blank')}
             />
           );
         })}

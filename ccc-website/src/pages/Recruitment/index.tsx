@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 function Recruitment() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return <div></div>;
 }
 
-export default Recruitment
+export default Recruitment;
