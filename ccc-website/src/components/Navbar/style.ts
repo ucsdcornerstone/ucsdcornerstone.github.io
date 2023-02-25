@@ -79,6 +79,10 @@ export const Nav = styled.ul<{ showing?: boolean }>`
   margin-right: 5vw;
   margin-top: 25px;
 
+  @media screen and (max-width: 900px) {
+    margin-right: 2vw;
+  }
+
   @media screen and (max-width: 768px) {
     width: 100%;
     background: #1d1d1d;

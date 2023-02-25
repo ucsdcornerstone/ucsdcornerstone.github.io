@@ -5,19 +5,19 @@ import mail from "./mail.svg";
 
 export const Socials = [
   {
-    link: "",
+    link: "https://www.linkedin.com/company/cornerstone-community-consultants/about/",
     image: linkedin,
   },
   {
-    link: "",
+    link: "https://www.instagram.com/ucsdcornerstone/",
     image: instagram,
   },
   {
-    link: "",
+    link: "https://www.facebook.com/cornerstonecommunityconsultants/",
     image: facebook,
   },
   {
-    link: "",
+    link: "mailto:ucsd.cornerstone@gmail.com",
     image: mail,
   },
 ];
