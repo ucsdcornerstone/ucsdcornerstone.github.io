@@ -20,6 +20,8 @@ export const Text = styled.div<{
   ${(props) => props.light && 'font-weight: lighter;'}
   ${(props) => props.bold && 'font-weight: bold;'}
   ${(props) => props.lineHeight && `line-height: ${props.lineHeight};`}
+  ${(props) => props.center && 'text-align: center;'}
+
 
 
   @media screen and (max-width: 1200px) {
