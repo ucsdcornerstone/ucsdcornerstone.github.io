@@ -11,9 +11,10 @@ function Footer() {
         <Title>Cornerstone Community Consultants</Title>
       </Logo>
       <Links>
-        {Socials.map((item) => {
+        {Socials.map((item, i) => {
           return (
             <Icon
+              key={i}
               src={item.image}
               onClick={() => window.open(item.link, '_blank')}
             />

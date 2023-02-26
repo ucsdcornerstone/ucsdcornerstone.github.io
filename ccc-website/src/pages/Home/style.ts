@@ -41,28 +41,6 @@ export const Subtitle = styled.div`
   align-items: center;
 `;
 
-export const Button = styled(Link)`
-  background-color: #1d1d1d;
-  border: 2px solid #ffe27b;
-  color: #ffe27b;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  transition-duration: 0.4s;
-  padding: 10px 24px;
-  margin: auto 0;
-
-  &:hover {
-    background-color: #ffe27b;
-    color: black;
-  }
-
-  &:active {
-    background-color: #ffe27b;
-    transform: translateY(4px);
-  }
-`;
-
 export const LibraryWrapper = styled.div`
   width: 70%;
   align-self: center;
@@ -118,7 +96,6 @@ export const Service = styled.div`
   gap: 40px;
   @media screen and (max-width: 768px) {
     gap: 24px;
-
   }
 `;
 

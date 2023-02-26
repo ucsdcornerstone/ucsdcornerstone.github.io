@@ -6,7 +6,7 @@ export const Container = styled.div`
   height: 250px;
   background: url(${radys});
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -16,7 +16,7 @@ export const Container = styled.div`
 export const Heading = styled.div`
   color: rgb(168, 159, 159);
   white-space: nowrap;
-  margin: 0px 10px 0px 70px;
+  margin: 0px 10px 0px 50px;
 `;
 
 export const Lines = styled.div`

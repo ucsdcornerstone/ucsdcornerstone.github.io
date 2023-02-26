@@ -8,7 +8,13 @@ function Contact() {
     <div>
       <Title heading="CONTACT US" />
       <Content>
-        <Text fontSize="35px" tabletFont="28px" mobileFont="18px" lineHeight="40px" center >
+        <Text
+          fontSize="35px"
+          tabletFont="28px"
+          mobileFont="18px"
+          lineHeight="40px"
+          center
+        >
           If you would like to contact us, please email:
           <br />
           <Yellow>

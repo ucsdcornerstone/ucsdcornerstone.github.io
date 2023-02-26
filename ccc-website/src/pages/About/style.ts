@@ -1,19 +1,5 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-  margin: 50px 0px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  box-sizing: border-box;
-  padding: 0px 8vw;
-
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    padding: 0px 3vw;
-  }
-`;
-
 export const Column = styled.div`
   display: flex;
   flex-direction: column;

@@ -4,7 +4,6 @@ import {
   InfoContainer,
   InfoBlock,
   Subtitle,
-  Button,
   LibraryWrapper,
   Library,
   LibraryText,
@@ -13,7 +12,14 @@ import {
   Service,
   ServiceImg,
 } from './style';
-import { Text, Yellow } from '../../assets/universal';
+import {
+  Text,
+  Yellow,
+  Button,
+  HeadingText,
+  MediumText,
+} from '../../assets/universal';
+
 import geisel from '../../assets/home/geisel.png';
 import { services } from '../../assets/home/services';
 
@@ -48,17 +54,21 @@ function Home() {
         {/* Our mission and geisel image */}
         <InfoBlock>
           <Subtitle>
-            <Text fontSize="2em" tabletFont="20px" mobileFont="18px" bold>
-              OUR MISSION
-            </Text>
+            <HeadingText>OUR MISSION</HeadingText>
             <Button to="/about">
-              <Text>Learn More</Text>
+              <Text color="inherit">Learn More</Text>
             </Button>
           </Subtitle>
           <LibraryWrapper>
             <Library src={geisel} />
             <LibraryText>
-              <Text fontSize="30px" letterSpacing="0.05em" lineHeight="126%">
+              <Text
+                fontSize="28px"
+                tabletFont="20px"
+                mobileFont="16px"
+                letterSpacing="0.05em"
+                lineHeight="126%"
+              >
                 We strive to empower local businesses through community service,
                 professional development, and future business leadership.
               </Text>
@@ -69,25 +79,23 @@ function Home() {
         {/* Our services */}
         <InfoBlock>
           <Subtitle>
-            <Text fontSize="2em" tabletFont="20px" mobileFont="18px" bold>
-              OUR SERVICES
-            </Text>
+            <HeadingText>OUR SERVICES</HeadingText>
             <Button to="/services">
-              <Text>Learn More</Text>
+              <Text color="inherit">Learn More</Text>
             </Button>
           </Subtitle>
           <Purpose>
-            <Text fontSize="2em" tabletFont="20px" mobileFont="18px" center>
+            <MediumText>
               Cornerstone Community Consultants provides tangible solutions
               tailored to each individual company. We want to work with you and
               your needs. Our organization offers the following services:
-            </Text>
+            </MediumText>
           </Purpose>
           <ServiceWrapper>
             {services.map((item) => (
               <Service>
                 <Text
-                  fontSize="28px"
+                  fontSize="24px"
                   tabletFont="20px"
                   mobileFont="18px"
                   center
