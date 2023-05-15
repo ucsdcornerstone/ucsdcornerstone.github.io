@@ -12,29 +12,15 @@ export const Wrapper = styled.header`
   color: white;
 `;
 
-export const Logo = styled.div`
-  float: left;
-  display: flex;
-  color: white;
-  padding: 20px 0px 20px 5vw;
-  cursor: pointer;
-`;
-
 export const LogoImg = styled.img`
   height: 70px;
   width: 80px;
   margin-right: 5px;
+  float: left;
+  color: white;
+  padding: 20px 0px 20px 5vw;
+  cursor: pointer;
 `;
-
-export const LogoTitle = styled.div`
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-`;
-
-export const Word = styled.div``;
 
 export const Burger = styled.img`
   display: none;
@@ -48,11 +34,6 @@ export const Burger = styled.img`
     top: 40px;
     cursor: pointer;
   }
-`;
-
-export const Triangle = styled.img`
-  width: 16px;
-  height: 16px;
 `;
 
 export const A = styled(Link)`
@@ -90,39 +71,6 @@ export const Nav = styled.ul<{ showing?: boolean }>`
   }
 `;
 
-export const SubNav = styled(Nav)`
-  position: absolute;
-  top: 38px;
-  width: 150px;
-  display: none;
-
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    max-height: 100em;
-    position: relative;
-    top: 0;
-  }
-`;
-
-export const SubMenu = styled.div<{ showing: boolean }>`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.1em;
-  padding: 21px;
-
-  &:hover {
-    background: #444444;
-    transition: 0.5s;
-  }
-
-  @media screen and (max-width: 768px) {
-    position: static;
-    display: block;
-    width: 100%;
-  }
-`;
-
 export const Item = styled.li`
   float: left;
   position: relative;
@@ -135,15 +83,3 @@ export const Item = styled.li`
   }
 `;
 
-export const SubItem = styled(Item)`
-  width: 100%;
-  max-height: 100em;
-
-  a {
-    background: #1d1d1d;
-    padding: 10px;
-    @media screen and (max-width: 768px) {
-      padding: 10px 10px 10px 50px;
-    }
-  }
-`;

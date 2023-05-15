@@ -8,11 +8,8 @@ import PageWrapper from './components/PageWrapper';
 // pages
 import Home from './pages/Home';
 import About from './pages/About';
-import Contact from './pages/Contact';
-import Portfolio from './pages/Portfolio';
 import Recruitment from './pages/Recruitment';
-import Services from './pages/Services';
-import Team from './pages/Team';
+import Work from './pages/Work';
 
 function App() {
   return (
@@ -21,11 +18,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/work" element={<Work />} />
           <Route path="/recruitment" element={<Recruitment />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/team" element={<Team />} />
         </Routes>
       </PageWrapper>
     </Router>
